@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+.calendar {
+    border: 1px solid black;
+    background-color: rgb(235, 231, 227);
+    width: 350px;
+    padding: 20px;
+    box-shadow: 2px 2px 12px rgba(23, 21, 21, 0.1);
+    text-align: center;
+}
+
+.month {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    width: 14.28%;
+    padding: 10px;
+    text-align: center;
+}
+
+.days {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
